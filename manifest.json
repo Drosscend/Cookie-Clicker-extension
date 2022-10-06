@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Cookie Cookie Clicker",
+  "version": "1.0",
+
+  "description": "Cliquer sur les cookies doré automatiquement",
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://orteil.dashnet.org/cookieclicker/"],
+      "js": ["script.js"]
+    }
+  ]
+
+}
