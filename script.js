@@ -5,16 +5,7 @@ function clickShimmer() {
   }
 }
 
-// Définit une fonction pour cliquer sur le bouton bigCookie
-function clickBigCookie() {
-  let bigCookieButton = document.getElementById('bigCookie');
-  if (bigCookieButton) {
-    bigCookieButton.click();
-  }
-}
-
 function main(){
-  clickBigCookie();
   clickShimmer();
 }
 
